@@ -1,13 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Caudex);
-
-/*@font-face {
-    font-family: 'Caudex';
-    src: url('../fonts/Caudex-Regular.eot'); 
-    src: url('webfont.eot?#iefix') format('embedded-opentype'),
-         url('webfont.svg#svgFontName') format('svg'),
-         url('webfont.woff') format('woff'),
-         url('webfont.ttf')  format('truetype');
-}*/
+@import url(http://fonts.googleapis.com/css?family=Alegreya);
 
 *,
 *:before,
@@ -1091,11 +1082,11 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2.125em;
-  font-family: 'Caudex', serif; }
+  font-family: 'Alegreya', serif; }
 
 h2 {
   font-size: 1.6875em;
-  font-family: 'Caudex', serif; }
+  font-family: 'Alegreya', serif; }
 
 h3 {
   font-size: 1.375em; }
@@ -4309,15 +4300,16 @@ footer[data-role="contentinfo"] p, footer[data-role="contentinfo"] li {
 }
 .share {
   list-style: none;
+  text-align: right;
 }
 .share.row {
   margin: 0;
 }
 .share li {
-  float: left;
+  display: inline-block;
   margin-right: 10px;
 }
-.share-icon {
+.share-icon > i {
   background: url(../img/social-icons.png) no-repeat 0 0;
   display: block;
   width: 24px;
@@ -4325,19 +4317,19 @@ footer[data-role="contentinfo"] p, footer[data-role="contentinfo"] li {
   text-indent: -9999px;
   overflow: hidden;
 }
-.share-icon.facebook {
+.share-icon.facebook > i {
   background-position: 0 0;
 }
-.share-icon.twitter {
+.share-icon.twitter > i {
   background-position: -28px 0;
 }
-.share-icon.youtube {
+.share-icon.youtube > i {
   background-position: -56px 0;
 }
-.share-icon.wordpress {
+.share-icon.wordpress > i {
   background-position: -84px 0;
 }
-.share-icon.rss {
+.share-icon.rss > i {
   background-position: -112px 0;
 }
 article {
@@ -4409,20 +4401,20 @@ article ul li {
   .l-patchwork {
     float: left;
     display: block;
-    background: url(../img/nav.l-patchwork.png) no-repeat top left;
+    background: url(../img/nav.l-patchwork.png) no-repeat 0 0;
     width: 50px;
     height: 67px;
   }
   .r-patchwork {
     float: left;
     display: block;
-    background: url(../img/nav.r-patchwork.png) no-repeat top left;
-    width: 74px;
+    background: url(../img/nav.r-patchwork.png) no-repeat 0 0;
+    width: 50px;
     height: 67px;
   }
   .top-bar-section ul {
     font-size: 22px;
-    font-family: 'Caudex', serif; }
+    font-family: 'Alegreya', serif; }
   .top-bar-section ul li > a, .top-bar-section ul li.active > a {
     color: #5b3000;
   }
@@ -4433,6 +4425,8 @@ article ul li {
     background: url(../img/nav.cart.png) no-repeat 0 0;
     display: inline-block;
     margin-right: 5px;
+    position: relative;
+    top: 4px;
   }
   footer[data-role="contentinfo"] {
     margin-top: 50px;
