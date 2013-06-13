@@ -1,5 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Caudex);
 
+/*@font-face {
+    font-family: 'Caudex';
+    src: url('../fonts/Caudex-Regular.eot'); 
+    src: url('webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfont.svg#svgFontName') format('svg'),
+         url('webfont.woff') format('woff'),
+         url('webfont.ttf')  format('truetype');
+}*/
+
 *,
 *:before,
 *:after {
@@ -4255,7 +4264,7 @@ a.th {
 }
 #main {
   background: url(../img/body.home.jpg) no-repeat center -20px;
-  background-size: 600px 400px;
+  background-size: 600px 338px;
   min-height: 400px;
   padding-top: 180px;
   padding-bottom: 20px;
@@ -4264,17 +4273,17 @@ a.th {
   -moz-transition: width .5s; }
 .contentPage #main {
   background: url(../img/body.contentPage.jpg) no-repeat top center;
-  background-size: 600px 400px;
+  background-size: 600px 360px;
   min-height: 400px;
   padding-top: 230px; }
 @media only screen and (min-width: 468px) {
   #main {
     background-position: center -30px;
-    background-size: 1100px 650px;
+    background-size: 1100px 619px;
     min-height: 500px;
     padding-top: 290px; }
   .contentPage #main {
-    background-size: 800px 500px;
+    background-size: 800px 480px;
     min-height: 500px;
     padding-top: 300px; }
 }
