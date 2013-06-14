@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700);
+
 
 *,
 *:before,
@@ -4326,7 +4327,7 @@ footer[data-role="contentinfo"] p, footer[data-role="contentinfo"] li {
 .share-icon.youtube > i {
   background-position: -56px 0;
 }
-.share-icon.wordpress > i {
+.share-icon.blogger > i {
   background-position: -84px 0;
 }
 .share-icon.rss > i {
@@ -4339,7 +4340,7 @@ article > header {
   padding: 0 20px;
 }
 article > header > h1 {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 24px;
   color: white;
 }
@@ -4370,6 +4371,16 @@ article ul li {
 .clearing-thumbs li {
   background: none;
   padding: 0;
+}
+.preorder i {
+  width: 28px;
+  height: 23px;
+  display: block;
+  background: url(../img/nav.cart.small.png) no-repeat 0 0;
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  top: 4px;
 }
 /* Home Page */
 .strapline {
@@ -4419,14 +4430,7 @@ article ul li {
     color: #5b3000;
   }
   .preorder i {
-    width: 28px;
-    height: 23px;
-    display: block;
-    background: url(../img/nav.cart.png) no-repeat 0 0;
-    display: inline-block;
-    margin-right: 5px;
-    position: relative;
-    top: 4px;
+    background-image: url(../img/nav.cart.png);
   }
   footer[data-role="contentinfo"] {
     margin-top: 50px;
